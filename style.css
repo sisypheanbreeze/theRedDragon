@@ -11,3 +11,5 @@ p {text-transform:lowercase; font-family: Garamond; text-align: left;
   color:rgb(255, 177, 210);
 }
 .highlight { background-color: rgb(255, 177, 210);}
+.indent {text-indent: 20%;}
+#shape {list-style-type:square;}
