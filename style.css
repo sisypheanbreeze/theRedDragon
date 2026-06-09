@@ -10,3 +10,4 @@ h2 {background-color:rgb(140, 20, 20); font-family: Papyrus, "Brush Script MT", 
 p {text-transform:lowercase; font-family: Garamond; text-align: left;
   color:rgb(255, 177, 210);
 }
+.highlight { background-color: rgb(255, 177, 210);}
