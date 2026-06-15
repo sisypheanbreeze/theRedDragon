@@ -1,15 +1,14 @@
 /*centers h1 element*/
 h1 {text-align: center;
-    width:50%;
+    width: 50%;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto;}
     
 /*two specific paragraphs indent*/
-.visit {text-indent: 10%;}
-.eat-drink {text-indent: 10%;}
+ .visit, .eat-drink {text-indent: 10%;}
 
 /*color visit*/
-.visit {color: rgb(99, 27, 3);
+.visit {color: rgb(99, 27, 3);}
 
 /*list color and case*/
 .restaurants li:nth-child(3) {text-transform:uppercase; color:blue;}
