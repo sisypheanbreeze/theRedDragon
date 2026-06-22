@@ -19,3 +19,26 @@
     border: 6px dotted red;
     border-radius: 50px;
 }
+
+footer {
+    clear: both;   /* places footer below floated images */
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+
+    /* Background image */
+    background-image: url("hannibal.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+footer p {
+    text-align: center;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
