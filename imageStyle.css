@@ -1,12 +1,21 @@
 
 #hannibal.jpg {
-    float: right;
+    float: right; 
+    margin-left: 15px;    
+    border: 4px solid blue;        
+    border-radius: 10px;          
 }
 
 #hannibal_small.jpg {
-    float: left;
+    float: left; 
+    margin-right: 20px; 
+    border: 5px dashed green;
+    border-radius: 25px;
 }
 
 #hannibalVerySmall {
-    float: right;
+    float: right;     
+    margin-left: 25px;
+    border: 6px dotted red;
+    border-radius: 50px;
 }
