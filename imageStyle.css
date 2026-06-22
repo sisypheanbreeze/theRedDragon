@@ -20,6 +20,13 @@
     border-radius: 50px;
 }
 
+#bottomImage {
+    max-width: 100%; 
+    height: auto;     
+    display: block;
+    margin: 20px auto;
+}
+
 footer {
     clear: both;   /* places footer below floated images */
     text-align: center;
