@@ -10,4 +10,40 @@ h2 {background-color:rgb(140, 20, 20); font-family: Papyrus, "Brush Script MT", 
 p {text-transform:lowercase; font-family: Garamond; text-align: left;
   color:rgb(99, 27, 3);
 }
+/* ---------- TABLE ---------- */
 
+table {
+    width: 90%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    background-color: white;
+}
+thead {
+    background-color: rgb(140,20,20);
+    color: white;
+}
+tfoot {
+    background-color: rgb(255,230,240);
+    font-style: italic;
+    text-align: center;
+}
+th,
+td {
+    border: 2px solid rgb(140,20,20);
+    padding: 12px;
+    text-align: center;
+}
+tbody tr:nth-child(even) {
+    background-color: rgb(255,245,251);
+}
+tbody tr:hover {
+    background-color: rgb(255,220,235);
+}
+/* ---------- LISTS ---------- */
+#movieList {
+    list-style: upper-roman;
+    margin-left: 40px;
+}
+.subList {
+    list-style: square;
+}
