@@ -17,7 +17,16 @@
 
     <body style="background-color:rgb(255, 245, 251)">
 
-        
+        <nav>
+    <ul class="navbar">
+        <li><a href="#">Home</a></li>
+        <li><a href="#movieList">Top Contenders</a></li>
+        <li><a href="#movieTable">Film Comparison</a></li>
+        <li><a href="#reviewForm">Viewer Survey</a></li>
+        <li><a href="#bottomImage">Gallery</a></li>
+    </ul>
+</nav>
+    
 <!-- where most of the text is -->
         <h1>The Red Dragon: Two People, One Irreconcilable Difference</h1>
         <img src="hannibal.jpg" id="hannibal" style="width: 300px;" alt="Hannibal image regular">
@@ -141,6 +150,48 @@ This one is a bit harder to argue but I will try. The core of this movie, beyond
 <br><br><br>
 <p style="text-align:center;">Copyright &copy; - All rights reserved</p>
 </footer>
+        <h2 id="reviewForm">Tell Me Your Favorite Rivalry</h2>
+
+<form action="submit.html" method="post">
+
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name"><br><br>
+
+    <fieldset>
+
+        <legend>Favorite Film</legend>
+
+        <label for="film">Choose a film:</label><br>
+
+        <input list="films" id="film" name="film">
+
+        <datalist id="films">
+            <option value="Hannibal">
+            <option value="Face/Off">
+            <option value="X-Men: First Class">
+            <option value="Captain America: Civil War">
+            <option value="The Prestige">
+        </datalist>
+
+    </fieldset>
+    <br>
+    <p>Which theme interests you the most?</p>
+    <input type="radio" id="revenge" name="theme" value="Revenge">
+    <label for="revenge">Revenge</label><br>
+    <input type="radio" id="friendship" name="theme" value="Friendship">
+    <label for="friendship">Friendship</label><br>
+    <input type="radio" id="morality" name="theme" value="Morality">
+    <label for="morality">Morality</label>
+    <br><br>
+    <label for="rating">Rate this webpage (1-10):</label><br>
+    <input type="number" id="rating" name="rating" min="1" max="10">
+    <br><br>
+    <label for="watchDate">When did you last watch one of these films?</label><br>
+    <input type="date" id="watchDate" name="watchDate">
+    <br><br>
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+</form>
         <img id="bottomImage" src="hannibal.jpg" style="width: 800px;" alt="Hannibal image regular">
     </body>
 
