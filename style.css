@@ -174,3 +174,39 @@ button:hover{
     margin-bottom:30px;
 
 }
+
+#jsonTable{
+
+    width:90%;
+
+    margin:30px auto;
+
+    border-collapse:collapse;
+
+}
+
+/* ---------- Json ---------- */
+#jsonTable th{
+
+    background-color:rgb(140,20,20);
+
+    color:white;
+
+}
+
+#jsonTable th,
+#jsonTable td{
+
+    border:2px solid rgb(140,20,20);
+
+    padding:10px;
+
+    text-align:center;
+
+}
+
+#jsonTable tr:nth-child(even){
+
+    background-color:rgb(255,245,251);
+
+}
