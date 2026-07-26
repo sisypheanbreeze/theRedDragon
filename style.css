@@ -127,3 +127,50 @@ input[type=reset]:hover{
     background-color:rgb(255,177,210);
     color:rgb(82,18,44);
 }
+
+/* ---------- Button ---------- */
+button{
+
+    display:block;
+
+    margin:25px auto;
+
+    background-color:rgb(140,20,20);
+
+    color:white;
+
+    padding:12px 20px;
+
+    border:none;
+
+    font-family:Garamond;
+
+    font-size:16px;
+
+    cursor:pointer;
+
+    border-radius:6px;
+
+}
+
+button:hover{
+
+    background-color:rgb(255,177,210);
+
+    color:rgb(82,18,44);
+
+}
+
+#favorite{
+
+    text-align:center;
+
+    font-size:18px;
+
+    font-weight:bold;
+
+    color:rgb(82,18,44);
+
+    margin-bottom:30px;
+
+}
