@@ -27,4 +27,7 @@ fetch("movies.json")
 
     document.getElementById("movieData").innerHTML = table;
 
-});
+})
+    .catch(error => {
+        console.error("Error loading JSON:", error);
+    });
